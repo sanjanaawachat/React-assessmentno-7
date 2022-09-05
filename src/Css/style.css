@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(187, 105, 160); 
+ }
+ 
+ .header {
+   background-color: darkgrey;
+   height: 15vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .header ul {
+   display: flex;
+   column-gap: 300px;
+   list-style: none;
+   
+ }
+ 
+ .nav-Link {
+   text-decoration: none;
+   font-size: 40px;
+   color: rgb(234, 23, 142);
+ 
+ 
+ }
+ 
+ .nav-Link:hover {
+   color: black;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bolder;
+ }
+ h1{
+   color: yellow;
+   font-style: italic;
+   text-align: center;
+ }
+ 
+.student_nav_ctn{
+ display: flex;
+ justify-content: space-between; 
+ margin: 50px;  
+ 
+ }
+ 
+ .add_student_button{
+     height: 50px;
+     padding: 10px 10px;
+     border: 1px solid;
+     border-radius: 10px;
+     color: white;
+     background-color: gray;
+     font-size: 20px;
+     text-decoration: none;
+ }
+ 
+ 
+
+ .Add_details_container{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 50px 50px;
+     margin-top:100px ;
+ } 
+ 
+  label{
+      font-size: 25px;
+  }
+  input{
+      font-size: 25px;
+      margin-left: 20px;
+      border-radius: 15px;
+      border: transparent;
+      padding: 2px;
+  }
+  .button_ctn{
+      display:flex;
+      justify-content: space-evenly;
+      margin: 50px 20px;
+  }
+ 
+ .button,.buttons{
+     font-size: 25px;
+     text-decoration: none;
+     height: 60px;
+     width: 250px;
+     padding: 10PX 10px;
+     background-color: white;
+     border-radius : 10px ;
+     color: grey;
+     font-weight: bold;
+     text-align: center;
+     position: relative;
+     left: 250px;
+ }
+ .buttons{
+     background-color: white;
+     color: grey;
+     text-align: center;
+     position: relative;
+     left: 150px;
+ }
+ 
